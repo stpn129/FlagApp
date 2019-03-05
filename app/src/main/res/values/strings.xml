@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FlagApp</string>
+    <string name="button">Button</string>
+    <string name="searchcountry">Some country...</string>
+    <string name="textview">Country</string>
+    <string name="FlagTextView">Flag</string>
+    <string name="buttonToShow">Show</string>
+    <string name="todo">TODO</string>
+</resources>
