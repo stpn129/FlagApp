@@ -1,6 +1,5 @@
 package com.example.stud1.flagapp;
 
-import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
@@ -32,9 +31,15 @@ public class MainActivity extends AppCompatActivity {
            public void onClick(View v) {
                if (searchCountry.getText().toString().equals("Россия")){
                    flagImage.setImageResource(R.drawable.flag_rf);
+               }else if(searchCountry.getText().toString().equals("Аргентина")){
+                      flagImage.setImageResource(R.drawable.arg);
+               }else if(searchCountry.getText().toString().equals("Ямайка")){
+                   flagImage.setImageResource(R.drawable.yam);
                }else{
                    Toast.makeText(MainActivity.this,"This country does not exist:(",Toast.LENGTH_SHORT).show();;
                }
+
+
 
            }
        });
@@ -53,11 +58,8 @@ TextWatcher mWatcher = new TextWatcher() {
 
     @Override
     public void afterTextChanged(Editable s) {
- if (!searchCountry.getText().toString().isEmpty()){
-     button_show.setEnabled(true);
-     button_show.setBackgroundResource(R.drawable.btn_gradient);
+        button_show.setEnabled(!searchCountry.getText().toString().isEmpty());
 
- }
     }
 };
 }
