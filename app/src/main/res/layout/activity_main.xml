@@ -57,7 +57,7 @@
         android:layout_marginBottom="28dp"
         android:fontFamily="sans-serif-medium"
         android:text="@string/buttonToShow"
-        android:textColor="@color/color_btn_main"
+        android:textColor="@color/color_btn_disabled"
         android:background="@color/color_btn_disabled"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

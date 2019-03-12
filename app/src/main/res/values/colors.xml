@@ -3,6 +3,6 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
-    <color name="color_btn_main">#FFFFFF</color>
-    <color name="color_btn_disabled">#665F5F</color>
+    <color name="color_btn_disabled">#665F5F </color>
+    <color name="color_btn_enaabled">#B38383</color>
 </resources>
