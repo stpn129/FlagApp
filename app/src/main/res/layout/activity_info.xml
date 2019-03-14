@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".InfoActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/r" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/textview2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:text="Россия – самая большая страна мира, её площадь 17 075 400 квадратных километров. Она больше США в 1,8 раз. Площадь России приблизительно равна площади поверхности планеты Плутон.  В России находится самый большой в мире действующий вулкан – Ключевская Сопка. Его высота 4 километра 850 метров. Он выбрасывает столбы пепла на восемь километров вверх. С каждым извержением он становится всё выше. Извергается вулкан Ключевская Сопка на протяжении последних 7 тысяч лет.  Сибирское озеро Байкал — самое глубокое озеро в мире и самый крупный источник пресной воды на планете. В Байкале 23 кубических километра воды. Все крупнейшие реки мира – Волга, Дон, Днепр, Енисей, Урал, Обь, Ганг, Ориноко, Амазонка, Темза, Сена и Одер – должны течь почти год, чтобы заполнить бассейн, равный по объёму озеру Байкал.  Урал — самые старые горы в мире. Расположенная в Кусинском районе у деревни Александровка гора Карандаш возникла 4, 2 миллиарда лет назад. Исторические названия Уральских гор – Большой Камень, Сибирский Камень, Земной Пояс, Поясной Камень. Когда-то Уральские горы были очень высокими, но теперь от прежних гор остались только основания." />
+</android.support.constraint.ConstraintLayout>

@@ -6,5 +6,10 @@
     <string name="FlagTextView">Flag</string>
     <string name="buttonToShow">Show</string>
     <string name="todo">TODO</string>
+    <string name="todo0">TODO</string>
+    <string name="image">TODO</string>
+    <string name="image0">TODO</string>
+    <string name="desc_ru">TextView</string>
+    <string name="textview2">TextView</string>
 
 </resources>

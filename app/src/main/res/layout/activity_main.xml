@@ -55,14 +55,14 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="28dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:enabled="true"
         android:fontFamily="sans-serif-medium"
         android:text="@string/buttonToShow"
         android:textColor="@color/color_btn_disabled"
-        android:background="@color/color_btn_disabled"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:enabled="false"/>
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/flagView"

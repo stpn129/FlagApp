@@ -91,6 +91,7 @@
         android:scaleType="centerCrop"
         android:src="@drawable/flagimage"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/linearLayout" />
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+        android:contentDescription="@string/todo" />
 
 </android.support.constraint.ConstraintLayout>
